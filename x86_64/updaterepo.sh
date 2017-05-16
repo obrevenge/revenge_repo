@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm revenge_repo.*
 repo-add revenge_repo.db.tar.gz *.pkg.tar.xz
 sleep 2
 rm revenge_repo.db
